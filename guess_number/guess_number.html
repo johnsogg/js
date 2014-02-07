@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="guess_number.js"></script>
+	</head>
+	<body>
+
+	<div>
+		Your last guess was: <b><span id="lastGuessText"></span></b>
+	</div>
+
+	<div>
+		Next guess: <input type="text" onchange="process_guess()" id="guess" />
+	</div>
+
+	<div>
+		Last Guess: <b><span id="lastGuess"></span></b>
+	</div>
+
+	<div>
+		High: <b><span id="high"></span></b>
+	</div>
+
+	<div>
+		Low: <b><span id="low"></span></b>
+	</div>
+
+	</body>
+</html>
