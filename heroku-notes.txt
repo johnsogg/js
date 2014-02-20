@@ -1,0 +1,5 @@
+Heroku Notes
+
+Databases: There are a bunch of database options, including Postgresql and MongoDB.
+
+Dyno: A 'dyno' is their measurement of usage. It is based on wall-clock time (not CPU time). More dynos mean better responsiveness and throughput on their end. You get 750 dynos free each month (a 31-day month is 744 hours).
