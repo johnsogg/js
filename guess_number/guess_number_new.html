@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="guess_number_new.js"></script>
+	<title>Number Guessing Game</title>
+</head>
+<body onload="resetGame()">
+	Guess something here:
+	<input type="text" onchange="guessNumber()" id="guess">
+
+	<p>Low guess: <span id="low">Dunno</span></p>
+	<p>High guess: <span id="high">Some big number</span></p>
+
+	<p><span id="congrats"></span>
+</body>
+</html>
